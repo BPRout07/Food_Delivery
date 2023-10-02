@@ -1,4 +1,44 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 30px;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  z-index: 100;
+  transition: .5s;
+}
+
+.navbar a{
+  justify-content: space-between;
+  font-size: 18px;
+  position: relative;
+  margin-right: 20px;
+}
+
+#darkMode-icon{
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#cart-icon{
+  font-size: 15px;
+  cursor: pointer;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +75,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
