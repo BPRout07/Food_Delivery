@@ -1,47 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../src/App.css">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../src/App.css">
+  <link rel="about" href="./about.html">
+  <!-- <link rel="stylesheet" href="../src/loader.css"> -->
 
-    <title>Food</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <header class="header">
-      <img src="./Untitled design.png" alt="logo">
-      <nav class="navbar">
+  <title>Food</title>
+</head>
+
+<body>
+  <div class="loader">
+    <div class="cssload-container">
+      <div class="cssload-circle"></div>
+      <div class="cssload-circle"></div>
+    </div>
+  </div>
+
+  <div class="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="pull-left hidden-xs">Food😋 at your Door🚪 😊</p>
+          <p class="pull-right"><i class="fa fa-phone"></i>Order Online +91-958-217-7362</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="root"></div>
+  <header class="header">
+    <img src="./Untitled design.png" alt="logo">
+    <nav class="navbar">
       <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
+      <a href="./about.html">About</a>
       <a href="#Foods">Foods</a>
       <a href="#Contact">Contact</a>
     </nav>
     <div class="icons">
-    <div class="bx bx-moon" id="darkMode-icon"></div>
-    <div class="bx bx-cart" id="cart-icon"></div>
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+      <div class="bx bx-cart" id="cart-icon"></div>
     </div>
-    </header>
-    <section class="home" id="home">
-      <div class="home-content">
-        <div class="h-para"><p>Be The Fastest In Delivering Your<div class="food">Food</div></p>
-        <img src="./h-image.jpg" alt="">
-        </div>
+  </header>
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="h-para">
+        <p>Be The Fastest In Delivering Your<div class="food">Food</div>
+        </p>
       </div>
-    </section>
-  </body>
+      <div class="moto">Our job is to filling your tummy with delicious food and with fast and free delivery</div>
+      <button class="login-button">Login</button>
+    </div>
+    </div>
+    <div class="Dec-image">
+      <img src="./h-image.jpg" class="eating-food">
+    </div>
+  </section>
+  <section class="down">
+    <div class="d-c1">
+      <div class="img"><img src="./down-img.png" class="down-img"></div>
+      <div class="down-p">
+        <p>Our job is to filling your tummy with delicious food and with fast and free delivery.</p>
+      </div>
+      <div class="s-icons">
+        <a href="#LOL">
+          <i class='bx bxl-instagram' id="insta-icon"></i>
+          <i class='bx bxl-facebook-circle' id="f-icon"></i>
+          <i class='bx bxl-twitter' id="t-icon"></i>
+          <i class='bx bxl-linkedin-square' id="l-icon"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+    <div class="d-c2">
+      <div class="i-p">Important Links</div>
+      <div class="tag">
+        <a href="#home">Home</a>
+        <a href="./about.html">About</a>
+        <a href="#Foods">Foods</a>
+        <a href="#Contact">Contact</a>
+      </div>
+    </div>
+    <div class="d-c3">
+      <div class="feed">Get in Touch</div>
+      <div class="feed-p">
+        <p>Question or feedback?</p>
+        <p>We’d love to hear from you</p>
+        <input type="text" id="inputBar" name="inputBar" placeholder="Give us your Feedback">
+      </div>  
+    </div>
+  </section>
+</body>
+
 </html>
