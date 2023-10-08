@@ -145,7 +145,7 @@ body {
 }
 
 .down {
-  background-color: #ead7f7;
+  background-color: #4d4c4b;
   margin-top: 4vh;
   width: auto;
   height: 31vh;
@@ -169,7 +169,7 @@ body {
 .down-p {
   font-size: 15px;
   font-weight: bolder;
-  color: #7f14e3;
+  color: #c93a06;
   font-style: italic;
   padding: 4vh 0px 0px 0px;
   width: 29vw;
@@ -214,7 +214,7 @@ body {
 }
 
 .i-p {
-  color: #000000;
+  color: whitesmoke;
   font-size: 20px;
   font-weight: bold;
 }
@@ -222,12 +222,14 @@ body {
 .tag {
   display: flex;
   flex-direction: column;
+  
 }
 
 .tag a {
   font-size: 15px;
   line-height: 5vh;
   font-weight: lighter;
+  color: #eb5757;
 }
 
 .d-c3 {
@@ -238,13 +240,14 @@ body {
 }
 
 .feed {
-  color: #000000;
+  color: whitesmoke;
   font-size: 20px;
   font-weight: bold;
 }
 
 .feed-p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #bdbdbd;
 }
 
 #inputBar {
@@ -254,63 +257,3 @@ body {
   border-radius: 60px;
   border: 1px solid #bdbdbd;
 }
-/* .bottom {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: auto;
-  width: auto;
-  padding: 7vh 0vw 0vh 3vw;
-  background: transparent;
-  display: flex;
-  align-items: flex-start;
-  z-index: 100;
-  transition: 0.5s;
-} */
-/* .img{
-  width: 1vw;
-  height: 1vh;
-} */
-/* .important-links{
-  display: flex;
-  flex-direction: column;
-} */
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
